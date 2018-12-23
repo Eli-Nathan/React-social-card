@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'
+
+const randImage = "https://source.unsplash.com/random/800x600";
 
 class App extends Component {
   constructor(props) {
@@ -14,7 +16,10 @@ class App extends Component {
         </header>
 
         <div className="card-wrap">
-
+          <img
+            src={randImage}
+            alt="Image"
+          />
         </div>
       </div>
     );
