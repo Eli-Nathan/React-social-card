@@ -32,13 +32,17 @@ code {
 
   &__info {
     padding: 12px 14px;
+
     .interactions {
       &__icon {
-        padding:0;
-        text-align: left;
-        .heartObject {
-          width: 20px;
-          height: 20px;
+        &--heart {
+          padding-left:0;
+          text-align: left;
+
+          .heartObject {
+            width: 20px;
+            height: 20px;
+          }
         }
       }
     }

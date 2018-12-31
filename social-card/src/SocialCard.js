@@ -5,7 +5,6 @@ import heart from './images/heart.svg';
 class SocialCard extends Component {
   constructor(props) {
     super(props);
-
   }
 
   render() {
